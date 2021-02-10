@@ -3,7 +3,7 @@ module "s3_bucket" {
   
   bucket_prefix = "mpeters"
   acl    = "private"
-  create_bucket = false
+  create_bucket = true
   
 
   versioning = {
